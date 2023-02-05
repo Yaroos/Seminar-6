@@ -2,7 +2,7 @@
 
 0, 7, 8, -2, -2 -> 2
 
-1, -7, 567, 89, 223-> 3*/
+1, -7, 567, 89, 223 -> 4     */
 
 Console.WriteLine("Введите коэффициенты через пробел");
 string [] sKoefs = Console.ReadLine().Split();
@@ -26,8 +26,3 @@ for (int i = 0; i < iKoefs.Length; i++)
     
 }
 Console.WriteLine($"Чисел больше нуля => {result}");
-
-
-
-
-
